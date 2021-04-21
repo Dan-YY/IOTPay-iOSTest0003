@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'IOTPay-iOSTest03_Example' do
+  pod 'IOTPay-iOSTest03', :path => '../'
+
+  target 'IOTPay-iOSTest03_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
