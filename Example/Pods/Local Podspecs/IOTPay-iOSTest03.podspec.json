@@ -1,0 +1,22 @@
+{
+  "name": "IOTPay-iOSTest03",
+  "version": "0.1.0",
+  "summary": "A short description of IOTPay-iOSTest03.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dan-YY/IOTPay-iOSTest03",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dan-YY": "dan@dansstudio.ca"
+  },
+  "source": {
+    "git": "https://github.com/Dan-YY/IOTPay-iOSTest03.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "IOTPay-iOSTest03/Classes/**/*"
+}
