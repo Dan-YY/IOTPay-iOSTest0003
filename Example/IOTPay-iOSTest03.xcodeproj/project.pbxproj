@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		005CD73E3FE0EF273FEF0BC9 /* Pods_IOTPay_iOSTest03_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTPay_iOSTest03_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		027A3D418682CF94D1771003 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		027A3D418682CF94D1771003 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IOTPay-iOSTest03_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOTPay-iOSTest03_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74C9E9F830306EE19071184C /* Pods_IOTPay_iOSTest03_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTPay_iOSTest03_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A21F6E22D3745DCFB1C584D /* Pods-IOTPay-iOSTest03_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPay-iOSTest03_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IOTPay-iOSTest03_Tests/Pods-IOTPay-iOSTest03_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0854AB5481DC15AB55E701B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B4EFFC3351DE111020B6A068 /* IOTPay-iOSTest03.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "IOTPay-iOSTest03.podspec"; path = "../IOTPay-iOSTest03.podspec"; sourceTree = "<group>"; };
+		B0854AB5481DC15AB55E701B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4EFFC3351DE111020B6A068 /* IOTPay-iOSTest03.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "IOTPay-iOSTest03.podspec"; path = "../IOTPay-iOSTest03.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D90362D361F98988FA80A4B2 /* Pods-IOTPay-iOSTest03_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPay-iOSTest03_Example.debug.xcconfig"; path = "Target Support Files/Pods-IOTPay-iOSTest03_Example/Pods-IOTPay-iOSTest03_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A53A7CCC2BE231C79A82E7 /* Pods-IOTPay-iOSTest03_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPay-iOSTest03_Example.release.xcconfig"; path = "Target Support Files/Pods-IOTPay-iOSTest03_Example/Pods-IOTPay-iOSTest03_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA5BE315EE647C7D34A30BA6 /* Pods-IOTPay-iOSTest03_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPay-iOSTest03_Tests.release.xcconfig"; path = "Target Support Files/Pods-IOTPay-iOSTest03_Tests/Pods-IOTPay-iOSTest03_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				8A21F6E22D3745DCFB1C584D /* Pods-IOTPay-iOSTest03_Tests.debug.xcconfig */,
 				FA5BE315EE647C7D34A30BA6 /* Pods-IOTPay-iOSTest03_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
